@@ -1,0 +1,285 @@
+.contain {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 42px;
+}
+
+.logo_name {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.login {
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #00fff6;
+    width: 170px;
+    border: 0;
+    padding: 13px 20px;
+    text-align: center;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 42px;
+    margin-top: 88px;
+}
+
+.tagline {
+    font-size: 46px;
+    font-weight: 700;
+    color: #fff;
+    width: 718px;
+}
+
+.life_img {
+    width: 552px;
+    margin-top: -88px;
+}
+
+.circle {
+    background-color: #00fff6;
+    border-radius: 50%;
+    padding: 22px 26px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: transform 0.3s ease-in-out;
+    outline: none;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+}
+
+.pop {
+    transform: scale(1.2);
+}
+
+.chat {
+    width: 60px;
+}
+
+.me {
+    width: 100%;
+    padding-right: 42px;
+    display: flex;
+    justify-content: right;
+}
+
+.hanish {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1331px) {
+    .tagline {
+        font-size: 33px;
+        font-weight: 700;
+        color: #fff;
+        width: 455px;
+    }
+
+    .life_img {
+        width: 469px;
+        margin-top: -81px;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 42px;
+        margin-top: 138px;
+    }
+}
+
+@media screen and (max-width: 1036px) {
+    .tagline {
+        font-size: 34px;
+        font-weight: 700;
+        color: #fff;
+        width: 623px;
+        text-align: center;
+    }
+
+    .life_img {
+        width: 498px;
+        margin-top: 10px;
+    }
+
+    .main {
+        display: grid;
+        justify-content: center;
+        padding: 20px 42px;
+        margin-top: 101px;
+    }
+
+    .btn {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .imgg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 696px) {
+    .tagline {
+        font-size: 25px;
+        font-weight: 700;
+        color: #fff;
+        width: 397px;
+        text-align: center;
+    }
+
+    .life_img {
+        width: 360px;
+        margin-top: 15px;
+    }
+
+    .main {
+        display: grid;
+        justify-content: center;
+        padding: 20px 42px;
+        margin-top: 101px;
+    }
+
+    .btn {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .imgg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .login {
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+        cursor: pointer;
+        background-color: #00fff6;
+        width: 140px;
+        border: 0;
+        padding: 12px 20px;
+        text-align: center;
+        border-radius: 40px;
+        text-decoration: none;
+    }
+
+    .logo_name {
+        font-size: 27px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 14px;
+    }
+
+    .me {
+        width: 100%;
+        padding-right: 14px;
+        display: flex;
+        justify-content: right;
+    }
+}
+
+
+@media screen and (max-width: 443px) {
+    .tagline {
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        width: 263px;
+        text-align: center;
+    }
+
+    .life_img {
+        width: 244px;
+        margin-top: 39px;
+    }
+
+    .main {
+        display: grid;
+        justify-content: center;
+        padding: 20px 42px;
+        margin-top: 101px;
+    }
+
+    .btn {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .imgg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .login {
+        font-size: 11px;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+        cursor: pointer;
+        background-color: #00fff6;
+        width: 89px;
+        border: 0;
+        padding: 12px 9px;
+        text-align: center;
+        border-radius: 40px;
+        text-decoration: none;
+    }
+
+    .logo_name {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 14px;
+    }
+
+    .me {
+        width: 100%;
+        padding-right: 14px;
+        display: flex;
+        justify-content: right;
+    }
+
+    .hanish {
+        font-size: 13px;
+        color: #fff;
+        font-weight: 600;
+        margin-top: 29px;
+    }
+}
