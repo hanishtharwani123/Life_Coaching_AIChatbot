@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "../styles/prompt.css";
 import axios from "axios";
 import cross from "../assets/cross.png";
+import baseUrl from "../baseUrl";
 
 const Prompt = ({ closeModal }) => {
   const [prompt, setPrompt] = useState("");
@@ -44,7 +45,7 @@ const Prompt = ({ closeModal }) => {
 
       setInput((prevInput) => [...prevInput, newMessage]);
 
-      const res = await axios.post("http://localhost:5000/prompt", {
+      const res = await axios.post(`${baseUrl}/prompt`, {
         prompt: prompt || selectedPrompt,
       });
 
