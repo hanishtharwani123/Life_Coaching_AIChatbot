@@ -4,7 +4,7 @@ const path = require("path");
 const app = express();
 const cors = require("cors");
 const { urlencoded } = require("body-parser");
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 5000;
 const OpenAI = require("openai");
 
 const PromptModel = require("./models/schema");
