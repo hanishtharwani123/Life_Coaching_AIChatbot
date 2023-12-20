@@ -12,7 +12,11 @@ NurtureNudge is a chatbot AI designed to assist users in navigating and solving 
 
 ## Demo
 
-Check out the demo video demonstrating the features and usage of NurtureNudge: [Demo Video Link](Your Video Link).
+Check out the demo video demonstrating the features and usage of NurtureNudge: 
+
+https://github.com/hanishtharwani123/Life_Coaching_AIChatbot/assets/104623869/ba3c2271-390b-43e0-910c-617dc01d9a1f
+
+ 
 
 ## Website Link
 
