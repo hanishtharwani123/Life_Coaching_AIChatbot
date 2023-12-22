@@ -1,5 +1,5 @@
 // const baseUrl = "https://lifecoaching-chatbot-ai.onrender.com";
 
-const baseUrl = "http://localhost:5000";
+const baseUrl = "https://lifecoaching-chatbot-ai-hanish.onrender.com";
 
 export default baseUrl;
