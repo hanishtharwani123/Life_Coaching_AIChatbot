@@ -1,4 +1,4 @@
-# NurtureNudge - Life Coaching Chatbot
+# NurtureNudge - Life Coaching Chatbo
 
 NurtureNudge is a chatbot AI designed to assist users in navigating and solving life problems. It serves as a personal life coaching tutor, providing guidance and support for various life challenges. The website is built using the MERN stack, with React and Vite for the frontend, Node.js and Express for the backend, and MongoDB for data storage. The chatbot utilizes the GPT-3.5 Turbo 1160 Large language model, fine-tuned for specific use cases.
 
